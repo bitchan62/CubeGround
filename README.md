@@ -14,7 +14,7 @@ Unity를 활용한 동적 환경 구축 및 오브젝트 제어 시스템 프로
 - **Language**: C#
 - **Version Control**: Git
 
-## 📂 주요 파일 및 폴더 구조 (Assets 제외)
+## 📂 주요 파일 및 폴더 구조
 프로젝트 운영에 필요한 핵심 설정 파일들입니다.
 
 *   **Packages/**: 프로젝트에 의존성으로 추가된 유니티 패키지(예: AI Navigation, TextMeshPro 등)의 리스트와 매니페스트 파일이 포함되어 있습니다.
