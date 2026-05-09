@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Monster_Archer_Spawn_Fast
+  m_Controller: {fileID: 9100000, guid: c35df7960756ce643be14354853a951b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6afb47582cad5144480050fc831a435c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7c09a6751a70b5b47ba907ae1d58a068, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 04ed68f39e2b7f74988038aa02d9a201, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 04ed68f39e2b7f74988038aa02d9a201, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b4ee3e289df15c041b0764729b8a3f21, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4de0a0a9917f22f43b85bfea85740dab, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2eccefe26810f5844b07e14bb9296eef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 28fbbde5223677e45bda6af59751e2ed, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9d227bc027cd854438bf08e5274b44b5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9d227bc027cd854438bf08e5274b44b5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 99f3b3f1f9088c74bb4c85b84d912154, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 99f3b3f1f9088c74bb4c85b84d912154, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3b721b40832bfdf42b2d99907798a9a7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3b721b40832bfdf42b2d99907798a9a7, type: 2}

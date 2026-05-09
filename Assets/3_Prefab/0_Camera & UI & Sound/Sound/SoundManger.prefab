@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4534359015802050098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5682476871015079904}
+  - component: {fileID: 4125161470218919059}
+  m_Layer: 0
+  m_Name: SoundManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5682476871015079904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4534359015802050098}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4125161470218919059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4534359015802050098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90812b13d5ff7e340a9f192ce6feb304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMove:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
+  playerJump:
+    clip: {fileID: 8300000, guid: 3c0dfc00d35984b46bf64d77fd276fa0, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  playerLand:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
+  playerHit:
+    clip: {fileID: 8300000, guid: c18f32c567bd2a54f9ae734747726f92, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  playerDeath:
+    clip: {fileID: 8300000, guid: 7a97bad7206f1bf4cba16f2c509c5e62, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  playerBasicAttack:
+    clip: {fileID: 8300000, guid: c18d17061c781944b9cb8e19ea7d8433, type: 3}
+    volume: 0.6
+    maxSimultaneous: 0
+  playerDropAttack:
+    clip: {fileID: 8300000, guid: 8c906e554c5cbe9409ae425bc0b20d82, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  playerDropImpact:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
+  playerDodgeAttack:
+    clip: {fileID: 8300000, guid: 510adb6b7a8fc614fb0d82e3e2815e64, type: 3}
+    volume: 0.6
+    maxSimultaneous: 0
+  monsterSpawn:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
+  monsterHit:
+    clip: {fileID: 8300000, guid: 4355329be8baa0d4982df8fbfaa657a5, type: 3}
+    volume: 0.3
+    maxSimultaneous: 0
+  minionAttack:
+    clip: {fileID: 8300000, guid: 510adb6b7a8fc614fb0d82e3e2815e64, type: 3}
+    volume: 0.3
+    maxSimultaneous: 0
+  archerFire:
+    clip: {fileID: 8300000, guid: 0d266a056c410384687164d32e6cf8ed, type: 3}
+    volume: 0.5
+    maxSimultaneous: 0
+  mageSpell:
+    clip: {fileID: 8300000, guid: c3e7f0ec481d6054dbb3a665d3eeefae, type: 3}
+    volume: 0.7
+    maxSimultaneous: 0
+  shielderCharge:
+    clip: {fileID: 8300000, guid: 603489a2cb0b917408e9ce96a254760b, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  cubeMoveStart:
+    clip: {fileID: 8300000, guid: 3f93b43d0adad6d43ae63d54129ad5e9, type: 3}
+    volume: 0
+    maxSimultaneous: 0
+  cubeMoveEnd:
+    clip: {fileID: 8300000, guid: 88cb2b2a5acf38642bb8f46f061a9f99, type: 3}
+    volume: 0.5
+    maxSimultaneous: 0
+  cubeCollapseShake:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
+  boarWarning:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
+  boarCharge:
+    clip: {fileID: 8300000, guid: 746db8025c23715488bfb353b71b2a96, type: 3}
+    volume: 1
+    maxSimultaneous: 2
+  itemHealPickup:
+    clip: {fileID: 8300000, guid: 691025648fa3af445a19121f54af117a, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  itemCoinPickup:
+    clip: {fileID: 8300000, guid: b696da3388845af4ab036ca67b90a5fc, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  uiClick:
+    clip: {fileID: 8300000, guid: c18d17061c781944b9cb8e19ea7d8433, type: 3}
+    volume: 1
+    maxSimultaneous: 0
+  uiDialog:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
+  volumeSlider:
+    clip: {fileID: 0}
+    volume: 1
+    maxSimultaneous: 0
